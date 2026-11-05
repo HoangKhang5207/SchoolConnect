@@ -1,0 +1,21 @@
+{
+  "appId": "3878294804116801168",
+  "pages": [
+    "pages/index"
+  ],
+  "listCSS": [
+    "assets/style.css"
+  ],
+  "listSyncJS": [
+    "assets/index.js"
+  ],
+  "listAsyncJS": [],
+  "app": {
+    "title": "SchoolConnect — Sổ Liên Lạc Mầm Non Sao Mai",
+    "headerTitle": "SchoolConnect",
+    "headerColor": "#0F766E",
+    "textColor": "white",
+    "statusBar": "normal",
+    "leftButton": "back"
+  }
+}

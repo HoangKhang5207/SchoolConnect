@@ -1,0 +1,6 @@
+{
+  "name": "schoolconnect-miniapp",
+  "framework": "react-typescript",
+  "cssPreProcessor": "css",
+  "template": "single-view"
+}

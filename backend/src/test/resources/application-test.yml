@@ -1,0 +1,10 @@
+spring:
+  sql:
+    init:
+      mode: always
+app:
+  auth:
+    demo-mode: true
+  cors:
+    allowed-origins: https://h5.zdn.vn,http://localhost:3000,http://localhost:5173
+

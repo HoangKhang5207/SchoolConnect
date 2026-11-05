@@ -1,0 +1,39 @@
+{
+  "name": "schoolconnect-miniapp",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SchoolConnect - Zalo Mini App Preschool Parent & Teacher Portal",
+  "type": "module",
+  "scripts": {
+    "start": "zmp start",
+    "dev": "vite --port 3000",
+    "build": "tsc -b && vite build",
+    "deploy": "zmp deploy",
+    "preview": "vite preview --port 3000",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint \"src/**/*.{ts,tsx}\" --max-warnings 0",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "lucide-react": "^0.454.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zmp-sdk": "^2.41.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.13.0",
+    "@typescript-eslint/parser": "^8.13.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^8.57.1",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4",
+    "zmp-cli": "^4.0.5",
+    "zmp-vite-plugin": "^1.1.6"
+  }
+}
